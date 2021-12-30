@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    margin: 0 10%;
+    text-align: center;
+    font-family: 'Nunito', sans-serif; 
+    background-color: #202124;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+ }
+
+ a:link {
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+a:visited {
+color: #fff;
+background-color: transparent;
+text-decoration: none;
+}
+
+/* Header */
+header {
+    width: 100%;
+}
+
+header h1 {
+    margin-top: 1em;
+}
+
+/* Nav */
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+}
+
+li {
+    padding: 10px 30px;
+}
+
+.container {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+/* Colors */
+
+.color-container {
+    width: 100%;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    margin: 10px auto;
+    min-height: 100px;
+    border-radius: 5px;
+}
+
+.color-label, .color-hex {
+    margin-top: 1em;
+    font-weight: 700;
+}
+
+.cool-blue {
+    background-color: #2d5dcc;
+    color: #fff;
+}
+
+.pink {
+    background-color: #d957d9;
+    color: #fff;
+}
+
+.mint-green {
+    background-color: #4fe0b0;
+    color: #fff;
+}
+
+.dark-blue {
+    background-color: #07325a;
+    color: #fff;
+}
+
+.grey {
+    background-color: #525A59;
+    color: #fff;
+}
+
+.purple {
+    background-color: #AB52C5;
+    color: #fff;
+}
+
+/* Fonts */
+.font-panel {
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.font-label {
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.source-code-pro {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.nunito {
+    font-family: 'Nunito', sans-serif;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.merriweather {
+    font-family: 'Merriweather', sans-serif;
+}
+
+
+/* Text Styles */
+
+.text-panel {
+    margin: 20px 0;
+}
+
+.text-panel h1 {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .text-panel h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .text-panel p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+  }
